@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+from quality_test import score_revisions
+score_revisions.main()
