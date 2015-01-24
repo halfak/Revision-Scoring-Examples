@@ -14,7 +14,7 @@ from revscores.extractors import APIExtractor
 from revscores.features import is_mainspace
 from revscores.languages import english
 
-from quality_test.adds_foo import AddsFooRule
+from .adds_foo import AddsFooRule
 
 def main():
 	args = docopt.docopt(__doc__)
